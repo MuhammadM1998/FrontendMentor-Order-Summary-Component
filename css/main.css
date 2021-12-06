@@ -1,0 +1,144 @@
+/*** Media ***
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
+/*** General Styles ***/
+:root {
+	--pale-blue: hsl(225, 100%, 94%);
+	--bright-blue: hsl(245, 75%, 52%);
+	--vey-pale-blue: hsl(225, 100%, 98%);
+	--desaturated-blue: hsl(224, 23%, 55%);
+	--dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+	font-family: 'Red Hat Display', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-image: url('../images/pattern-background-desktop.svg');
+	background-repeat: no-repeat;
+	background-color: #e0e8ff;
+	display: grid;
+	place-content: center;
+}
+
+p {
+	font-size: 12px;
+	color: var(--desaturated-blue);
+}
+
+img {
+	max-width: 100%;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+/*** Page Styles ***/
+.card {
+	margin: auto;
+	text-align: center;
+	width: 280px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.card .image img {
+	border-radius: 10px 10px 0 0;
+}
+.card .text {
+	padding: 30px;
+}
+
+.text .info .title {
+	margin-bottom: 20px;
+	color: var(--dark-blue);
+	font-weight: 900;
+}
+
+.text .info p {
+	font-size: 12px;
+	color: var(--desaturated-blue);
+	margin-bottom: 20px;
+}
+
+.text .plan {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.text .plan-details {
+	display: flex;
+	align-items: center;
+}
+
+.text .plan-details .image {
+	margin-right: 15px;
+	display: grid;
+	place-content: center;
+}
+
+.text .plan-details .image img {
+	width: 30px;
+}
+
+.text .plan-details .plan-text h5 {
+	margin-bottom: 3px;
+	color: var(--dark-blue);
+	font-weight: 700;
+}
+
+.text .plan a {
+	font-size: 12px;
+	color: var(--bright-blue);
+	font-weight: 700;
+}
+
+.text .plan a:hover {
+	opacity: 0.8;
+}
+
+.text .order a {
+	display: block;
+}
+
+.text .order .proceed {
+	text-decoration: none;
+	background-color: var(--bright-blue);
+	color: white;
+	padding: 10px;
+	font-size: 12px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+
+.text .order .proceed:hover {
+	opacity: 0.8;
+}
+
+.text .order .cancel {
+	text-decoration: none;
+	font-size: 12px;
+	color: var(--desaturated-blue);
+	font-weight: 700;
+}
+
+.text .order .cancel:hover {
+	color: var(--dark-blue);
+}
