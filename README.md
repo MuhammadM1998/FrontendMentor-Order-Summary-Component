@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
--   [Solution URL](https://github.com/MuhammadM1998/Order-Summary-Component)
--   [Live Site URL](https://muhammadm1998.github.io/Order-Summary-Component/)
+-   [Solution URL](https://github.com/MuhammadM1998/FrontendMentor-Order-Summary-Component)
+-   [Live Site URL](https://muhammadm1998.github.io/FrontendMentor-Order-Summary-Component/)
 
 ## My process
 
